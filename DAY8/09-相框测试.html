@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>相框</title>
+    <style>
+        .box{
+            height: 500px;
+            width: 500px;
+            border: 40px solid #48495D;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .div1{
+            width: 410px;
+            height: 410px;
+            border: 30px solid rgba(242,215,229, 0.6);
+            box-sizing: border-box;
+            margin: 5px;
+            transition: all 1s;
+        }
+        .div2{
+            width: 100%;
+            height: 100%;
+            border: 10px solid white;
+            box-sizing: border-box;
+            transition: all 1s;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transform: scale(1.2);
+            transition: all 0.6s;
+        }
+        .div1:hover img{
+            transform: scale(1);
+        }
+        .div1:hover .div2{
+            border: 0;
+        }
+        .div1:hover{
+            margin: 0;
+            border: 5px solid rgba(242,215,229, 0.6);
+            height: 415px;
+            width: 415px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="div1">
+            <div class="div2">
+                <img src="./image/20171227002504_EdYyS.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

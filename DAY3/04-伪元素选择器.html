@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 设置第一个字 */
+        p::first-letter{
+            font-size: 30px;
+            color: blue;
+        }
+        /* 设置第一行 */
+        p::first-line{
+            color: green;
+            line-height: 100px;
+            background-color: bisque;
+        }
+        /* 设置选择文本的样式 */
+        p::selection{
+            color: yellow;
+            background-color: black;
+        }
+        /* 前面添加内容 */
+        .mydiv::before{
+            content: '我是';
+            text-shadow: 2px 2px 2px aqua;
+        }
+        /* 后面添加内容 */
+        .mydiv::after{
+            content: '标签';
+
+        }
+    </style>
+</head>
+<body>
+    <p>网页布局中，我们是如何把里面的文字、图片按照美工给我们的效果图排列的整齐有序呢？看透网页布局的本加会班佛爱才开始那片产品无磕碰盘发了吗怕女巫买瓶水质：把网页元素比如文字、图片等，放入盒子里面，然后利用CSS摆放盒子的过程，就是网页布局。安洁科技那是开车就拿我爱看仓库拿扩大就能看见你查看忘记打卡参考价按开始缴纳的看见</p>
+    <div class="mydiv">div</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            width: 100%;
+            height: 41px;
+            border-top: 3px solid #ff8500;
+            border-bottom: 1px solid #edeef0;
+            background-color: #fcfcfc;
+            box-sizing: border-box;
+            padding: 0 174px;
+            position: relative;
+        }
+        .nav a{
+            padding: 0 12px;
+            display: inline-block;
+            height: 38px;
+            color: #4C4C4C;
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 41px;
+        }
+        .nav-right{
+            /* padding-left: 340px;
+            display: inline-block; */
+            /* float: right; */
+            position: absolute;
+            right: 174px;
+            top: 0;
+        }
+        .nav a:hover{
+            background-color: #ccc;
+            color: #ff8500;
+        }
+        
+        /* 行内标签可以设置内边距和水平方向的外边距，不可以设置垂直方向的外边距 */
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">设为首页</a>
+        <a href="#">手机新浪网</a>
+        <a href="#">移动客户端</a>
+        <div class="nav-right">
+            <a href="#" class="login">登录</a>
+            <a href="#">微博</a>
+            <a href="#">博客</a>
+            <a href="#">邮箱</a>
+            <a href="#">网站导航</a>
+        </div>
+    </div>
+    <div>我是div</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>子元素选择器</title>
+    <style>
+        .mydiv>ul>li{
+            text-shadow: 2px 2px 2px red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 子元素选择器由多个选择器构成，每个选择器用>链接 -->
+    <div class="mydiv">
+            <ul>
+                <li>列表1</li>
+                <li>列表2</li>
+                <li>列表3</li>
+            </ul>
+            <ol>
+                <li>列表1</li>
+                <li>列表2</li>
+                <li>列表3</li>
+            </ol>
+        </div>
+</body>
+</html>

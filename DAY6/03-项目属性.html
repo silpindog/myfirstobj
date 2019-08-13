@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 400px;
+            height: 300px;
+            background-color: green;
+            /* 设置为弹性容器 */
+            display: flex;
+            /* row是默认值 */
+            /* flex-direction: row; */
+            /* 设置项目换不换行 */
+            /* flex-wrap: wrap; */
+            /*  flex-flow是 flex-direction和flex-wrap的简写*/
+            /* flex-flow: row nowrap; */
+            /* justify-content设置项目在主轴方向的排列方式 */
+            justify-content: space-between;
+            /* 设置项目在交叉轴方向的排列方式 */
+            align-items: center;
+            /* align-content: flex-end; */
+        }
+        .box div{
+            /* width: 200px; */
+            /* height: 100px; */
+            /* 定义项目的放大比列，默认值为0 */
+            /* flex-grow: 1; */
+            /* 定义项目的缩小比列，默认值为1 */
+            /* flex-shrink: 0; */
+            flex: 1;
+        }
+        .box div:first-child{
+            background-color: #ccc;
+            /* order属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。 */
+            /* order: 2; */
+            /* flex-grow: 1; */
+            /* flex-basis: auto; */
+        }
+        .box div:nth-child(2){
+            background-color: #f00;
+            /* flex-grow: 2; */
+        }
+        .box div:last-child{
+            background-color: blue;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+    </div>
+</body>
+</html>

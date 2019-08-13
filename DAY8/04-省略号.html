@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>CSS3 text-overflow文本溢出显示省略符号或自定义字符串属性</title>
+<style type="text/css">
+        body{
+            background: #ddd;font-size:18px ;
+        }
+        #a,#b,#c{
+            border: 1px solid red;width: 200px;overflow:hidden;white-space:nowrap;
+        }
+        #a{
+            text-overflow:clip;
+        }
+        #b{
+            text-overflow:ellipsis;
+        }
+        #c{
+            text-overflow:'>>>';
+        }
+        #d{
+            color: red;
+        }
+</style>
+</head>
+<body>
+    <div id = "a">将裁剪溢出部分:text-overflow:clip;</div>
+    <div id = "b">将用省略号来代替裁剪部分text-overflow:ellipsis;</div>
+    <div id = "c">将用>>>来代替裁剪部分text-overflow:'***';</div>
+    <div id = "d">显示自定义字符串目前只在 Firefox 浏览器下有效</div>
+</body>
+</html>
+

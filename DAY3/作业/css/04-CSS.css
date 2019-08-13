@@ -1,0 +1,35 @@
+.mydiv1{
+    width:250px;
+    height: 45px;
+    background-image: url(../04/topfoot-spr.png);
+    background-repeat: no-repeat;
+    background-position: -211px 6px;
+}
+.mydiv2{
+    width: 165px;
+    height: 40px;
+    background-image: url(../04/topfoot-spr.png);
+    background-repeat: no-repeat;
+    background-position: -212px -42px;
+}
+.mydiv3{
+    width: 90px;
+    height: 45px;
+    background-image: url(../04/topfoot-spr.png);
+    background-repeat: no-repeat;
+    background-position: -211px -86px;
+}
+.mydiv4{
+    width: 56px;
+    height: 50px;
+    background-image: url(../04/topfoot-spr.png);
+    background-repeat: no-repeat;
+    background-position: -300px -84px;
+}
+.mydiv5{
+    width: 22px;
+    height: 31px;
+    background-image: url(../04/topfoot-spr.png);
+    background-repeat: no-repeat;
+    background-position: -354px -79px;
+}

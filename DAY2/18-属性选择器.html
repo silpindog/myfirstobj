@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>属性选择器</title>
+    <style>
+        /* 只要是input标签 且有type属性 */
+        input[type]{
+            color: red;
+        }
+        /* input标签，且有type属性并且属性值为text */
+        input[type=text]{
+            font-size: 30px;
+        }
+        /* 只要满足a标签，且targe属性的值有b这个字符串的标签 */
+        a[target*=b]{
+            text-decoration: none;
+
+        }
+        /* 满足a标签，targe属性的值以_s开头的标签 */
+        a[target^=_s]{
+            color: rgb(201, 32, 150)
+        }
+         /* 满足a标签，targe属性的值以h结尾的标签 */
+        a[target$=h]{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <label for="input1">账户</label>
+    <input type="text" id="input1">
+    <input type="password" id="input1">
+    <a href="" target="_blank">a1</a>
+    <a href="" target="_self">a2</a>
+    <a href="" target="hhhh">a3</a>
+    
+</body>
+</html>

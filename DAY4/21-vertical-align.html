@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>元素的显示和隐藏</title>
+    <style>
+        .box{
+            /* line-height: 100px; */
+            background-color: #ccc;
+        }
+        img{
+            /* 只有元素属于inline或是inline-block ，vertical-align属性才会起作用 */
+            /* 图片文字对齐 */
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        显示图片
+        <img src="img/phone.png" alt="">
+    </div>
+    <p>我是段落</p>
+</body>
+</html>

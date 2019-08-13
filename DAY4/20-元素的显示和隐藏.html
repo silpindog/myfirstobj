@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>元素的显示和隐藏</title>
+    <style>
+        img{
+            /* 隐藏图片 */
+            /* display: none; */
+            visibility: hidden;
+        }
+        .box:hover img{
+            /* 显示图片 */
+            /* display: inline-block; */
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        显示图片
+        <img src="img/lyf.jpg" alt="">
+    </div>
+    <p>我是段落</p>
+</body>
+</html>

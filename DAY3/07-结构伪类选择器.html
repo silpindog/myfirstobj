@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>结构伪类选择器</title>
+    <style>
+        p:first-child{
+            color: red;
+        }
+        p:last-child{
+            color: aqua;
+        }
+        p:nth-child(4){
+            font-weight: bolder;
+        }
+        p:nth-child(2n-1){
+            color:blue;
+        }
+        p:nth-last-child(25){
+            background-image: url(image/3.jpg);
+            background-repeat: no-repeat;
+            width: 300px;
+            height: 300px;
+        }
+        .myul1 li:first-child{
+            text-decoration: underline;
+        }
+        .myul1>li:last-child{
+            font-size: 40px;
+        }
+        .myul1 li:nth-child(2){
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="myul1">
+        <li>1.我是列表</li>
+        <li>2.我是列表</li>
+        <li>3.我是列表</li>
+        <li>4.我是列表</li>
+        <li>5.我是列表</li>
+    </ul>
+    <div>我是div</div>
+    <p>我是p标签1</p>
+    <p>我是p标签2</p>
+    <p>我是p标签3</p>
+    <p>我是p标签4</p>
+    <p>我是p标签5</p>
+    <p>我是p标签6</p>
+    <p>我是p标签7</p>
+    <p>我是p标签8</p>
+    <p>我是p标签9</p>
+    <p>我是p标签10</p>
+    <p>我是p标签11</p>
+    <p>我是p标签12</p>
+    <p>我是p标签13</p>
+    <p>我是p标签14</p>
+    <p>我是p标签15</p>
+    <p>我是p标签16</p>
+    <p>我是p标签17</p>
+    <p>我是p标签18</p>
+    <p>我是p标签19</p>
+    <p>我是p标签20</p>
+    <p>我是p标签21</p>
+    <p>我是p标签22</p>
+    <p>我是p标签23</p>
+    <p>我是p标签24</p>
+    <p>我是p标签25</p>
+    <p>我是p标签26</p>
+    <p>我是p标签27</p>
+    <p>我是p标签28</p>
+    <p>我是p标签29</p>
+    <p>我是p标签30</p>
+    <span>我是span</span>
+</body>
+</html>

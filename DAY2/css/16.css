@@ -1,0 +1,13 @@
+.sitenav .site-r a{
+        color: red;
+}
+.nav a{
+    color: green;
+}
+div{
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.nav>ul>li>a{
+    color: orange;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>标签显示模式转换</title>
+    <style>
+        .mydiv{
+             /*块级元素转为行内元素，宽高会失效*/
+            display: inline;
+            background-color: aqua;
+        }
+        span{
+            /*行内元素转为块级元素，可以设置宽高*/
+            display: block;
+            width: 50px;
+            height: 40px;
+            background-color: #cccc;
+        }
+        p{
+            width: 100px;
+		    height: 100px;
+		    background-color: red;
+        /*块级元素转为行内块元素，可以设置宽高，在一行内显示*/
+		    display: inline-block;	
+
+        }
+
+    </style>
+</head>
+<body>
+        <!-- /*块级元素转为行内元素，宽高会失效*/ -->
+    <div class="mydiv">我是div</div>
+    <!-- /*行内元素转为块级元素，可以设置宽高*/ -->
+    <span>我是span</span>
+    <!-- 块级元素转为行内块元素 -->
+    <p>我是p标签</p>
+    
+</body>
+</html>

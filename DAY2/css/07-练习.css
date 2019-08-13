@@ -1,0 +1,11 @@
+div{
+    /* border:设置边框粗细 设置边框样式 设置边框颜色 */
+    border: 1px solid #136AC5;
+    /* 设置宽度 高度*/
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    word-spacing: 20px;
+    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>外边距合并</title>
+    <style>
+        .mydiv1{
+            width: 100px;
+            height: 50px;
+            background-color: #ccc;
+            margin-bottom: 40px;
+        }
+        .mydiv2{
+            width: 100px;
+            height: 50px;
+            background-color: #f00;
+            margin-top: 20px;
+        }
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: #ccc;
+            margin-top: 50px;
+            /* 解决嵌套盒子的外边距合并 */
+            /* 多余的内容隐藏 */
+            /* overflow: hidden; */
+            /* padding-top: 1px; */
+            border-top: 1px solid #fff;
+        }
+        .boxdiv{
+            width: 100px;
+            height: 50px;
+            background-color: blue;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 并列盒子的上边距和下边距的合并，取较大值 -->
+    <div class="mydiv1">我是div1</div>
+    <div class="mydiv2">我是div2</div>
+    <!-- 嵌套盒子的外边距合并 -->
+    <div class="box">
+        <div class="boxdiv">我是嵌套的div</div>
+    </div>
+</body>
+</html>

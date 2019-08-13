@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: #ccc;
+            width: 200px;
+            height: 200px;
+            margin: 200px auto;
+        }
+        .box div{
+            background-color: blue;
+            height: 220px;
+            width: 220px;
+            /* 包含两个参数值，分别表示X轴和Y轴倾斜的角度，如果第二个参数为空，则默认为0，参数为负表示向相反方向倾斜。 */
+            transform:skew(30deg,20deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>
+          我是div
+        </div>
+    </div>
+</body>
+</html>

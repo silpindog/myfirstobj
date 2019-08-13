@@ -1,0 +1,40 @@
+div{
+    font-size: 40px;
+    /* 设置字体颜色 十六进制 */
+    color: #F096D9;
+    /* color:rgb(0-255,0-255,0-255) */
+    /* alpha 透明度 */
+    /* color: rgba(red, green, blue, alpha) */
+    /* 设置居中 */
+    text-align: center;
+    /* 文本修饰 none：默认值 */
+    text-decoration: line-through;
+    /* 文本转换 */
+    text-transform: lowercase;
+    /* 文本阴影 水平方向阴影位置 垂直方向阴影位置 模糊距离 阴影颜色 */
+    text-shadow: 2px 2px 2px black;
+    /* 文本方向 */
+    direction: rtl;
+    /* 字符间距 */
+    letter-spacing: 20px;
+}
+p{
+    text-align:justify;
+    text-transform: capitalize;
+    /* 文本缩进 */
+    /* text-indent: 32px; */
+    /* 1em= font-size */
+    font-size: 30px;
+    text-indent: 2em;
+
+}
+a{
+    text-decoration: none;
+}
+del{
+    text-decoration: none;
+}
+li{
+    /* 字间距 */
+    word-spacing: 20px;
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-image: url("https://img02.hua.com/pc/images/pc_newuser_order_100.png?v");
+    height: 80px;
+    /* background-size: 120% 100%; */
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.nav{
+    background-color: #F2F2F2;
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+    padding: 0 88px;
+    color: #737373;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+}
+.nav-left-item{
+    padding: 0 10px;
+}
+.nav-left-img{
+    color: #FFB680;
+}
+.icon-wechat-fill,.icon-phone{
+    font-size: 22px;
+}
+.icon-phone{
+    font-weight: bolder;
+}
+.nav-right{
+    display: flex;
+}
+.nav-right>span{
+    font-weight: lighter;
+    padding: 0 8px;
+}
+.sjx{
+    border-top: 6px solid #737373;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+.nav-right-cs{
+    width: 80px;
+    display: flex;
+    align-items: center;
+}

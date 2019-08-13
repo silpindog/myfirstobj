@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0; 
+}
+div{
+    text-align: center;
+    word-spacing: 25px;
+    height: 40px;
+    line-height: 40px;
+    font-family: 微软雅黑；
+}
+.classa a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.classa2 a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: calc(100*100vw/600);
+}
+body{
+    font-size: 0.24rem;
+    background-color: #F6F6F6;
+}
+
+.box{
+    margin: 0.15rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    display: flex;
+}
+.box-item{
+    text-align: center;
+    flex: 1;
+}
+.box-text1{
+    color: red;
+    
+}
+.box img{
+    width: 0.94rem;
+    height: 0.94rem;
+}
+.box .box-item p:nth-child(2){
+    font-size: 0.2rem;
+}
+.box-item:not(.box-item1){
+    border-left: 1px solid #F6F6F6;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>绝对定位</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        .mydiv1{
+            background-color: #ccc;
+        }
+        .mydiv2{
+            background-color: #f00;
+            position: relative;
+        }
+        .mydiv3{
+            background-color: green;
+        }
+        img{
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            left: 100px;
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mydiv1">我是div1</div>
+    <div class="mydiv2">
+        <img src="img/lyf.jpg" alt="">
+        <h1>我是标题标签</h1>
+    </div>
+    <div class="mydiv3">我是div3</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            text-shadow: 2px 2px 2px red;
+        }
+        div{
+            /* 如果一个属性通过两个选择器设置到同一个元素上，那么这个时候一个属性就会将另一个属性层叠掉 。 */
+            text-shadow: 2px 2px 2px red;
+            font-size: 40px;
+            /* 只要以color/font-/text-/line-开头的属性都可以继承  */
+            background-color:aqua; 
+            color: orange;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        div1
+        <p>我是段落</p>
+        <!-- a标签的颜色和下划线的设置不能继承，必须对a标签本身进行设置。 -->
+        <a href="#">a111111</a>
+    </div>
+</body>
+</html>

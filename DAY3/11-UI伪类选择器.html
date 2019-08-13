@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI伪类选择器</title>
+    <style>
+        /* 选择匹配的E元素，而且匹配元素获取焦点(动态伪类），实际工作中常用于去除默认边框线 :focus{outline:none} */
+        .myinput:focus{
+            color: red;
+            outline: none;
+        }
+        /* 匹配选中的复选按钮或者单选按钮表单元素 */
+        .myinput2:checked+span{
+            color: red;
+        }
+        input:enabled{
+            font-size: 30px;
+        }
+        input:disabled{
+            background-color: #ccc;
+
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="myinput">
+    <input type="radio" class="myinput2">
+    <span>男</span>
+    <input type="password">
+    <input type="text" class="myinput3" disabled>
+</body>
+</html>

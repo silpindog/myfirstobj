@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 360px;
+    height: 480px;
+    position: relative;
+    background-position: top,0;
+    border: 1px solid #959B9F;
+}
+a{
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+.classp1{
+    position: absolute;
+    top: 250px;
+    left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.classp2{
+    position: absolute;
+    top: 280px;
+    left: 40px;
+    color: #959B9F;
+}
+.classa{
+    position: absolute;
+    top: 350px;
+    left:140px;
+    text-decoration: none;
+    color: #FF761A;
+}

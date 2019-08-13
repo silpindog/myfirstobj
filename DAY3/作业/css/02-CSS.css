@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+.div1{
+    background-image: url(../02/m_home_ranklist.png);
+    width: 350px;
+    height: 240px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.div2{
+    background-color: #FF7650;
+    width: 100px;
+    height:30px;
+    line-height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+.div2 .classa{
+    color: white;
+    text-decoration:none;
+}
+span{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+.div1>.classp1{
+    position: absolute;
+    left: 20px;
+    font-size: 30px;
+}
+.div1 .classp2{
+    position: absolute;
+    left: 20px;
+    top: 45px;
+    color: #959B9F;
+}
+.div1 span{
+    font-size: 14px;
+    font-weight: bold;
+
+}

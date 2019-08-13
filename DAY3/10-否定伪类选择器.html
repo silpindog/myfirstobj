@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>否定伪类选择器</title>
+    <style>
+        /* 除了.li3，其它li标签都选中 */
+        ul li:not(.li3){
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1列表标签</li>
+        <li>2列表标签</li>
+        <li class="li3">3列表标签</li>
+        <li>4列表标签</li>
+        <li>5列表标签</li>
+        <li>6列表标签</li>
+    </ul>
+    
+</body>
+</html>

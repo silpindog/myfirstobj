@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: #333333;
+    color: #9CB0B0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 182px;
+    position: relative;
+    box-sizing: border-box;
+}
+.top-right{
+    float: right;
+}
+.top span:not(.shopspan){
+    color: #383C42;
+    font-size: 12px;
+}
+.top a{
+    display: inline-block;
+    font-size: 12px;
+    color: #B0B0B0;
+    text-decoration: none;
+}
+.top a:hover{
+    color: white;
+}
+.top .shopcart{
+    background-image: url(image/shopcar.png);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.top .shopbox{
+    width: 150px;
+    height: 38px;
+    background-color: #424242;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+.top .shopbox:hover{
+    background-color: #fff;
+    color:#ff6700;
+}
+.shopdiv{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 318px;
+    height: 100px;
+    background-color: #fff;
+    line-height: 100px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    color: #000;
+    display: none;
+    z-index: 99;
+}
+.top .shopbox:hover .shopdiv{
+    display: block;
+}
+.content1{
+    height: 56px;
+    padding: 25px 182px;
+    position: relative;
+}
+.content1-Navigation{
+    display: inline-block;
+    position: absolute;
+    line-height: 56px;
+    left: 400px;
+
+}
+.content1-img1{
+    line-height: 85px;
+}
+.content1-Navigation a{
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.content1-Navigation a:hover{
+    color: #FF6700;
+}
+.content1-spanbox{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    line-height: 50px;
+}
+.content1 input{
+    width: 245px;
+    height: 56px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.content1-spanbox span{
+    font-size: 12px;
+    background-color: #eee;
+    padding: 2px 4px;
+    color: #757575;
+}
+.content1-Navigation .content1-img2{
+    width: 56px;
+    height: 56px;
+}
+.content1-img2{
+    border: 1px solid #ccc;
+    border-left: 0;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 56px;
+    position: absolute;
+    top: 2px;
+    right: -48px;
+}
+.content1-img2 .content1-search{
+    width: 20px;
+    height: 20px;
+}
+.content1-spanbox span:hover{
+    color: #fff;
+    background-color: #ff6700;
+}
+.content1 input:focus{
+    outline: none;
+    border: 1px solid #FF6700;
+}
+.content1 input:focus+div{
+    display: none;
+}
+.content1-img2:hover{
+    background-color: #FF6700;
+}
+
+
+
+.content2{
+    padding: 0 182px;
+    position: relative;
+}
+.content2-left{
+    width: 230px;
+    height: 46px;
+    background-color: #757575;
+    color: #fff;
+    line-height: 46px;
+    font-size: 14px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.content2-left:hover{
+    background-color: #ff6700;
+}
+.content2-right{
+    position: absolute;
+    top: 0;
+    left: 412px;
+}
+.content2-right img{
+    width: 938px;
+    height: 460px;
+}
+.content2-right2,.content2-right3,.content2-right4,.content2-right5,.content2-right6,.content2-right7,.content2-right8,.content2-right9,.content2-right10{
+    display: none;
+}
+.content2-left1:hover+div{
+    display: block;
+}
+.content2-left2:hover+div{
+    display: block;
+}
+.content2-left4:hover+div{
+    display: block;
+}
+.content2-left5:hover+div{
+    display: block;
+}
+.content2-left6:hover+div{
+    display: block;
+}
+.content2-left7:hover+div{
+    display: block;
+}
+.content2-left8:hover+div{
+    display: block;
+}
+.content2-left9:hover+div{
+    display: block;
+}
+.content2-left10:hover+div{
+    display: block;
+}
+
+
+
+
+
+
+
+.flow a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.flow img{
+    height: 20px;
+    width: 20px;
+    border: 1px solid  #E0E0E0;
+}
+.flow{
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    right: 20px;
+    bottom: 500px;
+    z-index: 99;
+}

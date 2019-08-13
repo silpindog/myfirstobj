@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>字体属性</title>
+    <style>
+        div{
+             /* 浏览器默认字体大小16px */
+             /* 1.设置字体大小 */
+             font-size: 20px;
+             /* 2.字体加粗 bold bored lighter 100-900 */
+             font-weight:lighter;
+             /* 3.字体风格 obliqu italic */
+             font-style: italic;
+             /* 4.设置字体   英文字体在中文字体前*/
+             font-family: 'Times New Roman','微软雅黑','幼圆';
+             /* 5.行高 */
+             line-height: 100px;
+        }
+        i{
+            font-style: normal;
+        }
+        span{
+            /* font:顺序为：font-style:,font-weight,font-size/line-height,font-family */
+            font:bolder 500 30px '微软雅黑','幼圆';
+        }
+    </style>
+</head>
+<body>
+    <div>我是div</div>
+    <i>我是i</i>
+    <span>我是span</span>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>过渡</title>
+    <style>
+        .box{
+            width: 234px;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin-top: 60px;
+            /* transition: transform 0.5s,box-shadow 0.5s; */
+            transition: all 0.5s;
+        }
+        .box-text2{
+            /* 设置文字不换行 */
+            white-space: nowrap;
+            /* 多余内容隐藏 */
+            overflow: hidden;
+            /* 多余的文字用省略号 */
+            text-overflow: ellipsis;
+        }
+        .box:hover{
+            transform: translate(0,-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/beee478168e5c4fd0d66369386fddbbe.jpg?thumb=1&w=200&h=200&f=webp&q=90" alt="">
+        <p>Redmi K20 Pro 6GB+128GB</p>
+        <p class="box-text2">骁龙855旗舰处理器 / 索尼4800万超广角三摄 / 前置2000万升降式相机 / 6.39"AMOLED全面屏 / 4000mAh超长续航 / 8层石墨立体散热 / 第七代屏下指纹解锁 / 多功能NFC</p>
+    </div>
+</body>
+</html>
